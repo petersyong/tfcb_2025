@@ -1,5 +1,5 @@
-### This is my markdown file for homework 1
-
-## Images
+# This is my markdown file for homework 1
 ---
-#The various insects found here
+## Images
+Here are some images of various insects
+![this image did not load properly](./images/Acanthomyrmex_ferox.jpg)
