@@ -2,4 +2,4 @@
 
 ## Images
 ---
-#The various insects found in this directory
+#The various insects found here
