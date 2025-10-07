@@ -1,4 +1,5 @@
-This is my markdown file for homework 1. It includes images and tables seen elsewhere in this directory.
+### This is my markdown file for homework 1
+
+## Images
 ---
-Images
-The various insects found in this directory
+#The various insects found in this directory
