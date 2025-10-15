@@ -83,8 +83,9 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
+'''
 mkdir ~/tfcb_2025/homeworks/homework02/question02
 cd question02
 for i in $(cat ~/tfcb_2025/homeworks/homework02/list.txt); do touch file$i.txt; done
-
+'''
 
