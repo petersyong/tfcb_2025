@@ -11,7 +11,7 @@ Replace the lines specified in _italics_ with your answers and save as a text fi
 
 Complete the interactive tutorial.
 
-_Did you hit any points of frustration, and if so, how could we improve the material to avoid that frustration?_
+I did not hit any points of frustration when completing the tutorial.
 
 
 ## Problem 1
@@ -52,7 +52,15 @@ sequence.gb<br>
 slides<br>
 vader.txt<br>
 
-_Paste your SCRIPT here (not the output)_
+'''
+touch question01.txt
+echo "My username is $USER" >> question01.txt
+echo "My home directory is $HOME" >> question01.txt
+echo "The contents of the tfcb_2025/lectures/lecture04/ directory are" >> question01.txt
+ls ~/tfcb_2025/lectures/lecture04/ >> question01.txt
+mkdir -p homework02 
+mv question01.txt homework02/
+'''
 
 
 ## Problem 2
@@ -75,6 +83,8 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
-_Paste your SCRIPT here (not the output)_
+mkdir ~/tfcb_2025/homeworks/homework02/question02
+cd question02
+for i in $(cat ~/tfcb_2025/homeworks/homework02/list.txt); do touch file$i.txt; done
 
 
