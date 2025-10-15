@@ -86,5 +86,5 @@ You can make the contents of those files whatever you want (hint: slide 9... )
 Script pasted here:
 
 mkdir ~/tfcb_2025/homeworks/homework02/question02<br>
-cd question02<br>
+cd ~/tfcb_2025/homeworks/homework02/question02<br>
 for i in $(cat ~/tfcb_2025/homeworks/homework02/list.txt); do touch file$i.txt; done<br>
