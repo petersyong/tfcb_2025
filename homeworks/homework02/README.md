@@ -52,18 +52,14 @@ sequence.gb<br>
 slides<br>
 vader.txt<br>
 
-touch question01.txt
+Script pasted here:
 
-echo "My username is $USER" >> question01.txt
-
-echo "My home directory is $HOME" >> question01.txt
-
-echo "The contents of the tfcb_2025/lectures/lecture04/ directory are" >> question01.txt
-
-ls ~/tfcb_2025/lectures/lecture04/ >> question01.txt
-
-mkdir -p homework02 
-
+touch question01.txt<br>
+echo "My username is $USER" >> question01.txt<br>
+echo "My home directory is $HOME" >> question01.txt<br>
+tfcb_2025/lectures/lecture04/ directory are" >> question01.txt<br>
+ls ~/tfcb_2025/lectures/lecture04/ >> question01.txt<br>
+mkdir -p homework02<br>
 mv question01.txt homework02/
 
 
@@ -87,9 +83,8 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
-mkdir ~/tfcb_2025/homeworks/homework02/question02
+Script pasted here:
 
-cd question02
-
-for i in $(cat ~/tfcb_2025/homeworks/homework02/list.txt); do touch file$i.txt; done
-
+mkdir ~/tfcb_2025/homeworks/homework02/question02<br>
+cd question02<br>
+for i in $(cat ~/tfcb_2025/homeworks/homework02/list.txt); do touch file$i.txt; done<br>
