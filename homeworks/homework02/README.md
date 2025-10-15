@@ -53,11 +53,17 @@ slides<br>
 vader.txt<br>
 
 touch question01.txt
+
 echo "My username is $USER" >> question01.txt
+
 echo "My home directory is $HOME" >> question01.txt
+
 echo "The contents of the tfcb_2025/lectures/lecture04/ directory are" >> question01.txt
+
 ls ~/tfcb_2025/lectures/lecture04/ >> question01.txt
+
 mkdir -p homework02 
+
 mv question01.txt homework02/
 
 
@@ -82,6 +88,8 @@ tfcb_2023/homeworks/homework02/list.txt
 You can make the contents of those files whatever you want (hint: slide 9... )
 
 mkdir ~/tfcb_2025/homeworks/homework02/question02
+
 cd question02
+
 for i in $(cat ~/tfcb_2025/homeworks/homework02/list.txt); do touch file$i.txt; done
 
