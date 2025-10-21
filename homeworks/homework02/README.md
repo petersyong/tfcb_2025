@@ -54,12 +54,12 @@ vader.txt<br>
 
 Script pasted here:
 
-touch question01.txt<br>
-echo "My username is $USER" >> question01.txt<br>
-echo "My home directory is $HOME" >> question01.txt<br>
-tfcb_2025/lectures/lecture04/ directory are" >> question01.txt<br>
-ls ~/tfcb_2025/lectures/lecture04/ >> question01.txt<br>
-mkdir -p homework02<br>
+touch question01.txt
+echo "My username is $USER" >> question01.txt
+echo "My home directory is $HOME" >> question01.txt
+tfcb_2025/lectures/lecture04/ directory are" >> question01.txt
+ls ~/tfcb_2025/lectures/lecture04/ >> question01.txt
+mkdir -p homework02
 mv question01.txt homework02/
 
 
@@ -85,6 +85,6 @@ You can make the contents of those files whatever you want (hint: slide 9... )
 
 Script pasted here:
 
-mkdir ~/tfcb_2025/homeworks/homework02/question02<br>
-cd ~/tfcb_2025/homeworks/homework02/question02<br>
-for i in $(cat ~/tfcb_2025/homeworks/homework02/list.txt); do touch file$i.txt; done<br>
+mkdir ~/tfcb_2025/homeworks/homework02/question02
+cd ~/tfcb_2025/homeworks/homework02/question02
+for i in $(cat ~/tfcb_2025/homeworks/homework02/list.txt); do touch file$i.txt; done
